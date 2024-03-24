@@ -25,7 +25,7 @@
         cursor: pointer;
     }
     li:hover {
-        color: #a1a1a1;
+        color: #A6BBCC;
         transition: 0.3s;
     }
 }
@@ -34,4 +34,3 @@
     font-size: 3.5rem;
     cursor: pointer;
 }
-
