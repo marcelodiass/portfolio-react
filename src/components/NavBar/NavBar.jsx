@@ -10,8 +10,8 @@ function NavBar() {
             </h3>
             <ul className={styles.optNav}>
                 <li>Home</li>
-                <li>About</li>
-                <li>Work</li>
+                <li>Sobre</li>
+                <li>Trabalho</li>
             </ul>
             <FaGithub className={styles.iconGithub}/>
         </nav>

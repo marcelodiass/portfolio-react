@@ -1,6 +1,7 @@
 import './App.css'
-import Home from './components/Home/Home'
-import NavBar from './components/NavBar/NavBar'
+import SectionTitle from './components/SectionTitle/SectionTitle.jsx'
+import Home from './components/Home/Home.jsx'
+import NavBar from './components/NavBar/NavBar.jsx'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <NavBar/>
       <Home/>
+      <SectionTitle titulo='sobre'/>
     </>
   )
 }
