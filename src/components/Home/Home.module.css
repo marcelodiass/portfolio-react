@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    padding: 7rem;
+}
+
+.saudacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1;
+    font-size: 28px;
+    h1 {
+        font-size: 100px;
+        color: #A6BBCC;
+        line-height: 6rem;
+    }
+    .contato {
+        text-decoration: underline;
+        text-decoration-color: #A6BBCC;
+        text-underline-offset: 0.5rem;
+        cursor: pointer;
+    }
+    .contato:hover {
+        color: #a1a1a1;
+        transition: 0.3s;
+    }
+}
+
+.imagemHome {
+    border-radius: 50px;
+    width: auto;
+    height: 43rem;
+}
