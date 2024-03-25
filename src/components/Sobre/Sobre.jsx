@@ -13,7 +13,6 @@ function Sobre() {
   return (
     <div id="sobre">
       <SectionTitle titulo="sobre" />
-
       <div className={styles.sobre}>
         <p className={styles.sobreTexto}>
           Olá, me chamo Marcelo, tenho 19 anos, moro em São Paulo e sou um{" "}
