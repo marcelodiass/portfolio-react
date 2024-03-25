@@ -8,7 +8,7 @@ function Trabalho() {
     
 
   return (
-    <>
+    <div id="trabalho">
       <SectionTitle titulo="trabalho" />
       <div className={styles.trabalho}>
         <p className={styles.trabalhoTexto}>
@@ -38,7 +38,7 @@ function Trabalho() {
           image={ApiVideos.image}
         />
       </div>
-    </>
+    </div>
   );
 }
 

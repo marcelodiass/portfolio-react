@@ -5,7 +5,7 @@ function Home() {
     const profilePicUrl = 'src/assets/ProfilePic.webp'
 
   return (
-    <div className={styles.home}>
+    <div className={styles.home} id='home'>
         <div className={styles.saudacoes}>
             <h3>Olá! Me chamo Marcelo,</h3>
             <h1>Desenvolvedor <br/>Full Stack</h1>

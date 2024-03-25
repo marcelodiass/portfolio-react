@@ -11,7 +11,7 @@ function Sobre() {
   const ias = ["LLMs (ChatGPT, etc)", "Machine Learning"];
 
   return (
-    <>
+    <div id="sobre">
       <SectionTitle titulo="sobre" />
 
       <div className={styles.sobre}>
@@ -60,7 +60,7 @@ function Sobre() {
         />
 
       </div>
-    </>
+    </div>
   );
 }
 
