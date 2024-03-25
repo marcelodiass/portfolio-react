@@ -58,6 +58,7 @@ function Sobre() {
           tempo="11 Anos de Experiência"
           tecnologias={informatica}
         />
+
       </div>
     </>
   );

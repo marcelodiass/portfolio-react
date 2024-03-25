@@ -2,7 +2,7 @@ import styles from './Home.module.css'
 
 function Home() {
 
-    const profilePicUrl = 'src/assets/profilepic.jpeg'
+    const profilePicUrl = 'src/assets/ProfilePic.webp'
 
   return (
     <div className={styles.home}>

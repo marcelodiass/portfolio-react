@@ -1,0 +1,13 @@
+.trabalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trabalhoTexto {
+    width: 50%;
+    text-align: start;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    word-spacing: 2px;
+}
