@@ -12,11 +12,7 @@
     gap: 2rem;
     flex: 1;
     font-size: 2rem;
-    h1 {
-        font-size: 6rem;
-        color: #A6BBCC;
-        line-height: 6rem;
-    }
+    
     .contato {
         text-decoration: underline;
         text-decoration-color: #A6BBCC;
@@ -27,6 +23,12 @@
         color: #A6BBCC;
         transition: 0.3s;
     }
+}
+
+.saudacoes h1 {
+    font-size: 4.5rem;
+    color: #A6BBCC;
+    line-height: 6rem;
 }
 
 .imagemHome {

@@ -7,3 +7,7 @@
   background-color: #221F1F;
   color: #FFFFFF;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

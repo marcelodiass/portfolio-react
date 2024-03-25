@@ -1,11 +1,12 @@
 import Projeto from "../Projeto/Projeto";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import styles from "./Trabalho.module.css";
-import { ApiVideos, ExpensesTracker, ToDoList } from "./TrabalhoProjetos";
+import { Projetos } from "./TrabalhoProjetos";
 
 function Trabalho() {
-  
-    
+  const renderProjetos = Projetos.map((projeto) => (
+    <Projeto key={projeto.id} {...projeto} />
+  ));
 
   return (
     <div id="trabalho">
@@ -14,29 +15,12 @@ function Trabalho() {
         <p className={styles.trabalhoTexto}>
           Como dito antes, eu trabalho principalmente com a stack <b>MERN</b>,
           porém abaixo estão todos projetos em que trabalhei (não somente da
-          stack <b>MERN</b>) e também todas as tecnologias utilizadas.
+          stack <b>MERN</b>) e também todas as tecnologias utilizadas.{" "}
+          <i><b>PS: Passe o mouse por cima para saber mais.</b></i>
         </p>
       </div>
-
       <div className={styles.projetos}>
-        <Projeto
-          tecnologias={ExpensesTracker.tecnologias}
-          nomeProjeto={ExpensesTracker.nomeProjeto}
-          link={ExpensesTracker.link}
-          image={ExpensesTracker.image}
-        />
-        <Projeto
-          tecnologias={ToDoList.tecnologias}
-          nomeProjeto={ToDoList.nomeProjeto}
-          link={ToDoList.link}
-          image={ToDoList.image}
-        />
-        <Projeto
-          tecnologias={ApiVideos.tecnologias}
-          nomeProjeto={ApiVideos.nomeProjeto}
-          link={ApiVideos.link}
-          image={ApiVideos.image}
-        />
+        {renderProjetos}
       </div>
     </div>
   );

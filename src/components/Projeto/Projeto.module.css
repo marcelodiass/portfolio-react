@@ -12,12 +12,14 @@ section.card {
   perspective: 1000px;
   transition: all 0.6s;
 
-  img {
-    width: 400px;
-    height: 250px;
-  }
+  
 
 }
+.card img {
+  width: 400px;
+  height: 250px;
+}
+
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px #000000;
