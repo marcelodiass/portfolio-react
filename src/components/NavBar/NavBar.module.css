@@ -20,14 +20,16 @@
     font-family: 'Poppins';
     align-items: center;
     list-style: none;
-    li {
-        font-size: 25px;
-        cursor: pointer;
-    }
-    li:hover {
-        color: #A6BBCC;
-        transition: 0.3s;
-    }
+    
+}
+
+.optNav li {
+    font-size: 25px;
+    cursor: pointer;
+}
+.optNav li:hover {
+    color: #A6BBCC;
+    transition: 0.3s;
 }
 
 .iconGithub {
