@@ -1,14 +1,11 @@
 import Projeto from "../Projeto/Projeto";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import styles from "./Trabalho.module.css";
+import { ApiVideos, ExpensesTracker, ToDoList } from "./TrabalhoProjetos";
 
 function Trabalho() {
-  const projetoExpensesTracker = {
-    nomeProjeto: "Expenses Tracker",
-    tecnologias: ["MERN", "react", "seila"],
-    image: '',
-    link: 'https://github.com/marcelodiass/expenses-tracker'
-  };
+  
+    
 
   return (
     <>
@@ -23,9 +20,22 @@ function Trabalho() {
 
       <div className={styles.projetos}>
         <Projeto
-          tecnologias={projetoExpensesTracker.tecnologias}
-          nomeProjeto={projetoExpensesTracker.nomeProjeto}
-          link={projetoExpensesTracker.link}
+          tecnologias={ExpensesTracker.tecnologias}
+          nomeProjeto={ExpensesTracker.nomeProjeto}
+          link={ExpensesTracker.link}
+          image={ExpensesTracker.image}
+        />
+        <Projeto
+          tecnologias={ToDoList.tecnologias}
+          nomeProjeto={ToDoList.nomeProjeto}
+          link={ToDoList.link}
+          image={ToDoList.image}
+        />
+        <Projeto
+          tecnologias={ApiVideos.tecnologias}
+          nomeProjeto={ApiVideos.nomeProjeto}
+          link={ApiVideos.link}
+          image={ApiVideos.image}
         />
       </div>
     </>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 function Projeto(props) {
     const renderDesc = props.tecnologias.map((item) => {
-        return <li key={item.id}>&bull; {item}</li>
+        return <li key={item.id}>{item}</li>
     })
 
     const link = props.link
@@ -34,7 +34,6 @@ Projeto.propTypes = {
 
 Projeto.defaultProps = {
     nomeProjeto: 'Projeto',
-    image: '/src/assets/ImageProjetoDefault.webp'
 }
 
 export default Projeto;

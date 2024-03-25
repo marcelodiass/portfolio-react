@@ -64,4 +64,5 @@ section.card {
 }
 li, ul {
     background-color: transparent;
+    list-style: none;
 }

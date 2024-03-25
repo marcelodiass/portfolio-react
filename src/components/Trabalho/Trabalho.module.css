@@ -11,3 +11,12 @@
     line-height: 2.5rem;
     word-spacing: 2px;
 }
+
+.projetos {
+    display: flex;
+    padding: 4rem 15rem 2rem;
+    gap: 6rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
