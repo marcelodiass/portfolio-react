@@ -1,14 +1,14 @@
 .formContainer {
-  width: 400px;
-  background: linear-gradient(#212121, #212121) padding-box,
+  width: 500px;
+  background: linear-gradient(#221F1F, #221F1F) padding-box,
     linear-gradient(145deg, transparent 35%, #A6BBCC, #40c9ff) border-box;
   border: 2px solid transparent;
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
   font-size: 14px;
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
   box-sizing: border-box;
   border-radius: 16px;
   background-size: 200% 100%;
@@ -51,7 +51,7 @@
   margin-bottom: 5px;
   color: #717171;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-family: 'Inter';
 }
 
@@ -125,5 +125,23 @@
 .contatoContainer {
     display: flex;
     flex-direction: column;
+    gap: 3rem;
     margin-bottom: 9rem;
+}
+
+.contatoTexto {
+  width: 40%;
+  text-align: center;
+  align-self: center;
+  font-size: 1.3rem;
+  word-spacing: 2px;
+  line-height: 2.5rem;
+}
+
+.stateMessage {
+  text-align: center;
+  color: #A6BBCC;
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  font-size: 1.5rem;
 }
