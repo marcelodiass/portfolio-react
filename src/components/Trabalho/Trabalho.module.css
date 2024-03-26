@@ -20,3 +20,17 @@
     justify-content: space-evenly;
     align-content: center;
 }
+
+@media (max-width: 700px) {
+    .trabalhoTexto {
+        width: 70vw;
+    }
+    .trabalho {
+        padding: 2rem 0 3rem 0;
+    }
+    .projetos {
+        flex-direction: column;
+        padding: 0 0 2.5rem 0;
+        gap: 4rem;
+    }
+}
