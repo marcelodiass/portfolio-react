@@ -22,7 +22,7 @@
     display: flex;
     gap: 1.5em;
     font-family: 'Poppins';
-    align-items: center;
+    justify-content: space-evenly;
     text-align: center;
     list-style: none;
     flex-wrap: wrap;
@@ -40,5 +40,10 @@
 .iconGithub {
     font-size: 3.5rem;
     cursor: pointer;
-    align-self: self-end;
+}
+
+@media (max-width: 700px) {
+    .nav {
+        flex-direction: column;
+    }
 }

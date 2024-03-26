@@ -18,7 +18,7 @@ function Contato() {
       <ContatoForm />
       <p className={styles.contatoTexto}>
         Ou se preferir: <br />
-        <b>marcelodias.desenvolvedor@gmail</b> <br />
+        <b className={styles.email}>marcelodias.desenvolvedor@gmail</b> <br />
         <div className={styles.icons}>
           <FaLinkedin
             className={styles.iconContato}
