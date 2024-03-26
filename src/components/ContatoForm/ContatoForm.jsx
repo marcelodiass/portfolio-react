@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "../Contato/Contato.module.css";
 import emailjs from "@emailjs/browser";
-import { REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY} from './configEnv.js'
 
 const ContatoForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -13,10 +12,10 @@ const ContatoForm = () => {
     setIsSubmitting(true);
     emailjs
       .sendForm(
-        REACT_APP_SERVICE_ID,
-        REACT_APP_TEMPLATE_ID,
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         e.target,
-        REACT_APP_PUBLIC_KEY
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         () => {
