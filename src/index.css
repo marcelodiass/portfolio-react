@@ -2,10 +2,15 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
   font-size: 100%;
   font-family: 'Poppins';
   background-color: #221F1F;
   color: #FFFFFF;
+}
+
+html {
+  width: fit-content;
 }
 
 ::-webkit-scrollbar {

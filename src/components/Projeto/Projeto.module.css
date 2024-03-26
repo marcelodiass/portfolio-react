@@ -11,9 +11,6 @@ section.card {
   overflow: hidden;
   perspective: 1000px;
   transition: all 0.6s;
-
-  
-
 }
 .card img {
   width: 400px;
@@ -64,6 +61,13 @@ section.card {
   color: #ffffff;
   line-height: 1.4;
 }
+
+.projetoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 li, ul {
     background-color: transparent;
     list-style: none;
