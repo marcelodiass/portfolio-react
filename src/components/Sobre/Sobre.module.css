@@ -7,14 +7,14 @@
 .sobreTexto {
     width: 50%;
     text-align: start;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 2.5rem;
     word-spacing: 2px;
 }
 
 .experiencias {
     display: flex;
-    padding: 4rem 16rem 2rem;
+    padding: 4rem 16rem;
     gap: 7rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -23,4 +23,10 @@
 
 b {
     color: #A6BBCC;
+}
+
+@media (max-width: 1100px) {
+    .experiencias {
+        padding: 4rem 4rem;
+    }
 }

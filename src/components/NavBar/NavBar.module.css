@@ -1,8 +1,12 @@
 .nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .navNome {
@@ -19,8 +23,9 @@
     gap: 1.5em;
     font-family: 'Poppins';
     align-items: center;
+    text-align: center;
     list-style: none;
-    
+    flex-wrap: wrap;
 }
 
 .optNav li {
@@ -35,4 +40,5 @@
 .iconGithub {
     font-size: 3.5rem;
     cursor: pointer;
+    align-self: self-end;
 }
