@@ -2,7 +2,7 @@ import styles from './Home.module.css'
 
 function Home() {
 
-    const profilePicUrl = 'src/assets/ProfilePic.webp'
+    const profilePicUrl = '/ProfilePic.webp'
 
     const handleContact = () => {
       const section = document.getElementById('contato')
