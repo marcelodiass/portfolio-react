@@ -10,7 +10,7 @@
 }
 
 html {
-  width: fit-content;
+  width: 100vw;
 }
 
 ::-webkit-scrollbar {
