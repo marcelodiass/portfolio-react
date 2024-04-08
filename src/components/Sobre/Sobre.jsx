@@ -8,7 +8,7 @@ function Sobre() {
   const bd = ["MySQL", "SQL Oracle", "MongoDB", "PostgreSQL"];
   const devops = ["Git & Github", "Azure", "Docker"];
   const informatica = ["Pacote Office", "Windows", "Linux"];
-  const ias = ["LLMs (ChatGPT, etc)", "Machine Learning"];
+  const ias = ["LLMs (ChatGPT, etc)", "Machine Learning", "Prompt Engineering"];
 
   return (
     <div id="sobre">
